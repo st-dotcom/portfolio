@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>st-dotcom — Apps & Games</title>
+  <meta name="description" content="st-dotcom が開発した Web アプリ・ゲームのポートフォリオ" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 class="site-title">st-dotcom</h1>
+        <p class="site-sub">Webアプリ・ゲーム ポートフォリオ</p>
+      </div>
+      <nav class="hero-links">
+        <a href="https://github.com/st-dotcom/" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <p>以下は作成したアプリの一覧です。リンクをクリックすると各アプリが別タブで開きます。</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://time-wine-chi.vercel.app/" target="_blank" rel="noopener">TIME</a></h2>
+          <p class="muted">スタイリッシュな時計アプリ</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://snow-letter.vercel.app/" target="_blank" rel="noopener">Word Snowfall App</a></h2>
+          <p class="muted">Wikipediaを利用したアプリ</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://pomodoro-rouge-ten.vercel.app/" target="_blank" rel="noopener">Pomodoro Pro</a></h2>
+          <p class="muted">ポモドーロタイマー</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://hankakuzenkaku.vercel.app/" target="_blank" rel="noopener">半角全角変換ツール</a></h2>
+          <p class="muted">テキスト変換ツール</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://moji-count-e7wh.vercel.app/" target="_blank" rel="noopener">LexiScan</a></h2>
+          <p class="muted">英単語数カウントツール</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://gemini-vocab-app.vercel.app/" target="_blank" rel="noopener">AI CEFR Tutor</a></h2>
+          <p class="muted">AI英単語学習ツール</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://english-difficulty-analyzer.vercel.app/" target="_blank" rel="noopener">English Difficulty Analyzer</a></h2>
+          <p class="muted">英文難易度解析ツール</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2><a href="https://perfect-circle-app.vercel.app/" target="_blank" rel="noopener">perfect circle</a></h2>
+          <p class="muted">真円を覗く時、真円もまたこちらを覗いている</p>
+        </div>
+        <div class="card-action">Visit ↗</div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> st-dotcom</p>
+        <p class="small">このページは静的な HTML/CSS で構成されています。カスタマイズ可能です。</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // 現在の年をフッターに反映
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -412,6 +412,34 @@ a {
   box-shadow: 38px 14px 0 rgba(32, 43, 39, 0.26), -34px -16px 0 rgba(32, 43, 39, 0.22);
 }
 
+.card-shooting {
+  --project: #8a3f5f;
+}
+
+.card-shooting .project-visual {
+  background: linear-gradient(135deg, #f6edf2, #ead7e1);
+}
+
+.card-shooting .project-visual::before {
+  inset: 42px auto auto 30px;
+  color: var(--project);
+  font-size: 2.6rem;
+  font-weight: 850;
+  line-height: 1;
+  content: "A";
+}
+
+.card-shooting .project-visual::after {
+  width: 68px;
+  height: 2px;
+  right: 34px;
+  top: 64px;
+  background: var(--project);
+  box-shadow:
+    -14px -18px 0 rgba(138, 63, 95, 0.28),
+    -26px 18px 0 rgba(138, 63, 95, 0.22);
+}
+
 .site-footer {
   padding: 28px 0 34px;
   border-top: 1px solid var(--line);

@@ -440,6 +440,42 @@ a {
     -26px 18px 0 rgba(138, 63, 95, 0.22);
 }
 
+.card-echomorph {
+  --project: #466d83;
+}
+
+.card-echomorph .project-visual {
+  background:
+    radial-gradient(circle at 38% 48%, rgba(82, 229, 255, 0.28), transparent 24%),
+    radial-gradient(circle at 66% 58%, rgba(168, 121, 255, 0.22), transparent 28%),
+    linear-gradient(135deg, #081426, #101a38);
+}
+
+.card-echomorph .project-visual::before {
+  width: 42px;
+  height: 54px;
+  inset: 38px auto auto 50%;
+  border: 1px solid rgba(178, 241, 255, 0.82);
+  border-radius: 56% 44% 62% 38%;
+  background: radial-gradient(circle at 38% 30%, #e8fcff 0 3px, #52e5ff 4px 8px, rgba(168, 121, 255, 0.44) 9px 22px, transparent 23px);
+  box-shadow:
+    0 0 16px rgba(82, 229, 255, 0.48),
+    -44px 13px 0 -15px rgba(82, 229, 255, 0.48),
+    48px -12px 0 -17px rgba(168, 121, 255, 0.5);
+  transform: translateX(-50%) rotate(18deg);
+}
+
+.card-echomorph .project-visual::after {
+  width: 92px;
+  height: 52px;
+  inset: 40px auto auto 50%;
+  border: 1px solid rgba(82, 229, 255, 0.3);
+  border-right-color: rgba(168, 121, 255, 0.48);
+  border-radius: 50%;
+  box-shadow: 0 0 18px rgba(82, 229, 255, 0.12);
+  transform: translateX(-50%) rotate(-12deg);
+}
+
 .site-footer {
   padding: 28px 0 34px;
   border-top: 1px solid var(--line);
